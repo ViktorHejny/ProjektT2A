@@ -3,10 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaming Eshop</title>
-  <link rel="stylesheet" href="main.css">
+  <title>GamingObchod</title>
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="Logo">
+      </a>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Domů</a></li>
+      <li><a href="kategorie.html">Kategorie</a></li>
+      <li><a href="produkty.html">Produkty</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="kosik-krok1.html">Košík</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Vybavení pro hráče</h1>
+        <p>Nejlepší herní vybavení.</p>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h2>Kategorie</h2>
+
+        <div class="category-list">
+          <article class="category-item">Herní myši</article>
+          <article class="category-item">Klávesnice</article>
+          <article class="category-item">Headsety</article>
+          <article class="category-item">Monitory</article>
+          <article class="category-item">Konzole</article>
+          <article class="category-item">Příslušenství</article>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <h2>Doporučené produkty</h2>
+
+        <div class="product-list">
+
+          <article class="product-card">
+            <img src="assets/images/myš.jpg" alt="Myš Logitech Gaming PRO 2 Lightspeed">
+            <h3>Myš Logitech Gaming PRO 2 Lightspeed</h3>
+            <p class="price">2 500 Kč</p>
+
+            <div class="product-actions">
+              <a href="produkt-detail.html" class="btn btn-detail">
+                Detail produktu
+              </a>
+
+              <a href="kosik-krok1.html" class="btn btn-cart">
+                Přidat do košíku
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/images/klavesnice.jpg" alt="Klávesnice Razer Huntsman Mini">
+            <h3>Klávesnice Razer Huntsman Mini</h3>
+            <p class="price">2 700 Kč</p>
+
+            <div class="product-actions">
+              <a href="produkt-detail.html" class="btn btn-detail">
+                Detail produktu
+              </a>
+
+              <a href="kosik-krok1.html" class="btn btn-cart">
+                Přidat do košíku
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 GamingObchod. Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
