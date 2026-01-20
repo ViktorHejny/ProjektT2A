@@ -1,0 +1,11 @@
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
