@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Košík Shrnutí | GamingObchod</title>
+  <title>Potvrzení objednávky | GamingObchod</title>
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
@@ -36,23 +36,14 @@
   <section class="checkout">
     <div class="container">
 
-      <header class="page-header">
-        <h1>Košík</h1>
-        <p>Poslední krok  zkontrolujte objednávku a odešlete ji.</p>
-      </header>
+      <section class="confirmation-card">
+        <h1>Objednávka byla úspěšně odeslána </h1>
+        <p>Děkujeme za nákup! Vaši objednávku jsme přijali a brzy ji začneme zpracovávat.</p>
 
-      <ol class="checkout-steps">
-      <p>Dokončete objednávku ve 1 kroku.</p>
-      </ol>
+        <div class="confirmation-grid">
 
-      <section class="checkout-card">
-        <h2>Shrnutí objednávky</h2>
-
-        <div class="checkout-grid">
-
-
-          <section class="cart-preview">
-            <h3>Váš košík</h3>
+          <section class="confirmation-box">
+            <h2>Shrnutí objednávky</h2>
 
             <div class="cart-item">
               <div>
@@ -80,30 +71,25 @@
             </div>
           </section>
 
-
-          <section class="summary-box">
-
-            <h3>Doručení a platba</h3>
-
-            <p><strong>Doprava:</strong> Kurýr (99 Kč)</p>
-            <p><strong>Platba:</strong> Karta online</p>
+          <section class="confirmation-box">
+            <h2>Doručení</h2>
+            <p><strong>Jméno:</strong> Jan Novák</p>
+            <p><strong>Adresa:</strong> Ulice 12, 100 00 Praha</p>
+            <p><strong>Email:</strong> jan.novak@email.cz</p>
 
             <div class="summary-line"></div>
 
-            <label class="checkbox">
-              <input type="checkbox" required>
-              Souhlasím s obchodními podmínkami
-            </label>
-
-            <div class="form-actions">
-              <a href="kosik-potvrzeni.html" class="btn btn-cart">
-                Odeslat objednávku
-              </a>
-            </div>
-
+            <p><strong>Doprava:</strong> Kurýr (99 Kč)</p>
+            <p><strong>Platba:</strong> Karta online</p>
           </section>
 
         </div>
+
+        <div class="confirmation-actions">
+          <a href="index.html" class="btn btn-detail">Zpět na hlavní stránku</a>
+          <a href="produkty-mysi.html" class="btn btn-cart">Pokračovat v nákupu</a>
+        </div>
+
       </section>
 
     </div>

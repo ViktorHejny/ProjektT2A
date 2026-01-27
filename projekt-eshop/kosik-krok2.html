@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Košík Krok 2 | GamingObchod</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="GamingObchod logo">
+    </a>
+  </div>
+</header>
+
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html">Domů</a></li>
+    <li><a href="kategorie.html">Kategorie</a></li>
+    <li><a href="produkty-mysi.html">Produkty</a></li>
+    <li><a href="o-nas.html">O nás</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a class="active" href="kosik-krok1.html">Košík</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section class="checkout">
+    <div class="container">
+
+      <header class="page-header">
+        <h1>Košík</h1>
+      </header>
+
+      <ol class="checkout-steps">
+      <p>Dokončete objednávku ve 2 krocích.</p>
+
+      </ol>
+
+      <section class="checkout-card">
+        <h2>Doprava a platba</h2>
+
+        <div class="checkout-grid">
+
+          
+          <section class="cart-preview">
+            <h3>Váš košík</h3>
+
+            <div class="cart-item">
+              <div><strong>Logitech G Pro X Superlight</strong><span>1 ks</span></div>
+              <span>2 999 Kč</span>
+            </div>
+
+            <div class="cart-item">
+              <div><strong>Razer Huntsman Mini</strong><span>1 ks</span></div>
+              <span>2 700 Kč</span>
+            </div>
+
+            <div class="cart-line"></div>
+
+            <div class="cart-summary">
+              <div><span>Mezisoučet</span><strong>5 699 Kč</strong></div>
+            </div>
+          </section>
+
+          
+          <form class="form" action="kosik-krok3.html">
+
+            <h3>Doprava</h3>
+            <label class="option-item">
+              <input type="radio" name="shipping" checked>
+              <span>Kurýr – 99 Kč</span>
+            </label>
+            <label class="option-item">
+              <input type="radio" name="shipping">
+              <span>Zásilkovna – 79 Kč</span>
+            </label>
+
+            <h3>Platba</h3>
+            <label class="option-item">
+              <input type="radio" name="payment" checked>
+              <span>Karta online – zdarma</span>
+            </label>
+            <label class="option-item">
+              <input type="radio" name="payment">
+              <span>Dobírka – 39 Kč</span>
+            </label>
+
+            <div class="form-actions">
+              <button class="btn btn-cart">Pokračovat ke shrnutí</button>
+            </div>
+
+          </form>
+
+        </div>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 GamingObchod</p>
+  </div>
+</footer>
+
+</body>
+</html>
