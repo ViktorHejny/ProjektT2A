@@ -496,7 +496,7 @@
   margin-top: 3px;
 }
 
-/* tlačítko dole */
+
 .summary-box .form-actions {
   margin-top: auto;
 }
@@ -546,3 +546,94 @@
   margin-top: 20px;
   flex-wrap: wrap;
 }
+
+/* =========================
+  O NÁS
+========================= */
+
+.page {
+  padding: 40px 0 80px;
+}
+
+.page-header {
+  margin-bottom: 28px;
+}
+
+.page-header h1 {
+  margin-bottom: 6px;
+}
+
+.page-header p {
+  color: var(--text-muted);
+  max-width: 720px;
+}
+
+
+.content-block {
+  margin-bottom: 28px;
+}
+
+.content-block h2 {
+  margin-bottom: 10px;
+}
+
+.content-block p {
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 820px;
+}
+
+.bullets {
+  padding-left: 18px;
+  margin-top: 10px;
+  color: var(--text-muted);
+}
+
+.bullets li {
+  margin-bottom: 6px;
+}
+
+/* =========================
+   KONTAKT
+========================= */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 20px;
+}
+
+.contact-box {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.contact-box h2 {
+  margin-bottom: 12px;
+}
+
+.contact-box h3 {
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+
+.opening-hours {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6px;
+}
+
+.opening-hours td {
+  padding: 6px 0;
+  color: var(--text-muted);
+}
+
+.opening-hours td:last-child {
+  text-align: right;
+}
+
+
